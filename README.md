@@ -173,6 +173,11 @@ button:hover {
 ```
 
 ## OUTPUT:
+![alt text](<Screenshot 2025-12-24 092342.png>)
+![alt text](<Screenshot 2025-12-24 092353.png>)
+![alt text](<Screenshot 2025-12-24 092401.png>)
+![alt text](<Screenshot 2025-12-24 092408.png>)
+![alt text](<Screenshot 2025-12-24 092419.png>)
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
