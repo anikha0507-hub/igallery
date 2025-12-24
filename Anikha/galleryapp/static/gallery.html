@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+
+    <script>
+        const gallery = [
+            { src: "india.png", caption: "INDIA" },
+            { src: "europe.png", caption: "EUROPE" },
+            { src: "staue.png", caption: "USA" },
+            { src: "christ.png", caption: "BRAZIL" },
+            { src: "china.png", caption: "CHINA" },
+        ];
+
+        let index = 0;
+
+        function updateImage()
+         {
+            document.getElementById("img").src = gallery[index].src;
+            document.getElementById("text").innerHTML = gallery[index].caption;
+        }
+
+        function next()
+         {
+            index++;
+            if(index >= gallery.length){
+               index = 0;
+             }
+            updateImage();
+        }
+
+        function previous()
+         {
+            index--;
+            if(index < 0){
+               index = gallery.length - 1;
+            }
+            updateImage();
+        }
+    </script>
+</head>
+<body>
+    <div class="title">
+        <h1>INTERACTIVE IMAGE GALLERY</h1>
+    </div>
+    <div class="allign">
+        <div class="image">
+            <img id="img" src="india.png" alt="Gallery Image">
+            <h2 id="text">INDIA</h2>
+            <div class="button1">
+                <button onclick="previous()">Previous</button>
+                <button onclick="next()">Next</button>
+            </div>
+        </div>
+    </div>
+    <footer class="copyrights">
+        <h4> &copy; Designed by Anikha Pillai (25009524)</h4>
+    </footer>
+</body>
+</html>
