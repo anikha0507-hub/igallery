@@ -30,7 +30,7 @@ gallery.html
 <html>
 <head>
     <title>Interactive Image Gallery</title>
-    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="style.css">
 
     <script>
         const gallery = [
@@ -88,7 +88,7 @@ gallery.html
 </body>
 </html>
 ```
-gallery.css
+style.css
 ```
 body{
     background-image: url(world.png);
@@ -168,14 +168,7 @@ button:hover {
     text-align: center;
 }
 ```
-
-
 ## OUTPUT:
-![alt text](<Screenshot 2025-12-24 092342-1.png>)
-![alt text](<Screenshot 2025-12-24 092353.png>)
-![alt text](<Screenshot 2025-12-24 092401.png>)
-![alt text](<Screenshot 2025-12-24 092408.png>)
-![alt text](<Screenshot 2025-12-24 092419.png>)
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
